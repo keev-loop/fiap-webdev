@@ -1,0 +1,28 @@
+/* quadrado 2 */
+
+#alvo {
+    border: 2px solid black;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#quadrado {
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+/* quadrado 3 */
+
+#quadrado3 {
+    border: 2px solid black;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}

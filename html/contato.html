@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Restaurante FIAP</title>
+		<link rel="stylesheet" href="reset.css" type="text/css" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<head>
+	<body>
+		<header class="cabecalho">
+		<div class="container">
+			<h1 class="titulo-principal">
+				<i class="fas fa-seedling"></i>
+				Restaurante FIAP
+			</h1>
+			<nav>
+				 <ul>
+					 <li><a href="index.html">Home</a></li>
+					 <li><a href="galeria.html">Galeria</a></li>
+					 <li><a href="contato.html">Contato</a></li>
+				 </ul>
+			</nav>
+		</div>
+		</header>
+		
+		<img class="banner" src="https://www.emporiotambo.com.br/pub/media/resized/1300x800/ves/blog/xguia-de-mesa.jpg.pagespeed.ic.M976sIeg6W.jpg" alt="mesa colocada representando um restaurante vazio." width="500"/>
+		
+		<section class="conteudo-principal">
+			<form>
+			<label for="nome">Nome:</label>
+			<input
+				type="text"
+				id="nome"
+				name="nome"
+				placeholder="Digite o nome do responsável pela reserva"
+			/>
+			<label for="telefone">Telefone:</label>
+			<input
+				type="tel"
+				id="telefone"
+				name="telefone"
+				placeholder="Digite o telefone de contato"
+			/>
+			<label for="qtdPessoas">Mesa para quantos:</label>
+			<input
+				type="number"
+				id="qtdPessoas"
+				name="qtdPessoas"
+				step="1"
+				placeholder="Digite a quantidade de pessoas na mesa"
+			/>
+			<label for="observacoes">Informações adicionais:</label>
+			<textarea
+				id="observacoes"
+				name="observacoes"
+				placeholder="Informe suas restrições alimentares"
+			></textarea>
+			<button type="submit"><i class="far fa-paper-plane"></i> Enviar</button>
+			</form>
+		</section>
+
+	
+		<footer>
+			<div class="container">
+				<p class="copyright">
+					Feito com <span>&hearts;</span> por FIAP | Copyright &copy; 2020 - Restaurante FIAP
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
