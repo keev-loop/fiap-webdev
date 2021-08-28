@@ -1,4 +1,11 @@
-/* quadrado 2 */
+/* parte 1 */
+
+.vermelho {
+    color: red;
+}
+
+
+/* parte 2 */
 
 #alvo {
     border: 2px solid black;
@@ -17,7 +24,7 @@
 }
 
 
-/* quadrado 3 */
+/* parte 3 */
 
 #quadrado3 {
     border: 2px solid black;

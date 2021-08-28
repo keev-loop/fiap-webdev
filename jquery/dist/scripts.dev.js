@@ -74,3 +74,44 @@ $(document).ready(function () {
     console.log($(this).val());
   });
 });
+/* parte 4 */
+
+$(document).ready(function () {
+  // Evento keyup ao digitar na caixa de texto.
+  $("#sigla").keyup(function () {
+    // Se o tamanho do conteúdo da caixa for igual a 2
+    // (sigla digitada completamente)
+    if ($("#sigla").val().length == 2) {
+      $.ajax({
+        url: "ajax_jquery.php",
+        method: "POST",
+        // enviar a sigla
+        data: "sigla=" + $("#sigla").val(),
+        // Se a requisição voltar com sucesso.
+        success: function success(result) {
+          $("#resultado").html(result);
+        },
+        // Se a requisição NÃO voltar com sucesso.
+        error: function error() {
+          $("#resultado").html("Houve uma falha na requisição.");
+        }
+      });
+    } else {
+      $("#resultado").html("");
+    }
+  });
+});
+/* 
+$(document).ready(function() {
+  // Evento keyup ao digitar na caixa de texto.
+  $("#sigla").keyup(function() {
+    // Se o tamanho do conteúdo da caixa for igual a 2
+    // (sigla digitada completamente)
+    if($("#sigla").val().length == 2) {
+      $("#resultado").load("ajax1_server.php", { "sigla": $("#sigla").val() });
+    } else {
+      $("#resultado").html("");
+    }
+  });
+});
+ */
