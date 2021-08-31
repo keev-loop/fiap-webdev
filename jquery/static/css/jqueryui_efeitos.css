@@ -1,0 +1,50 @@
+#efeito {
+    width: 200px;
+    height: 110px;
+    padding: 0.4em;
+    position: relative;
+}
+
+#efeito h3 {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+}
+
+.toggler {
+    width: 500px;
+    height: 150px;
+    position: relative;
+}
+
+.ui-effects-transfer {
+    border: 2px dotted gray;
+}
+
+#quadrado {
+    width: 120px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: #DDD;
+}
+
+#melhores_filmes {
+    width: 200px;
+    height: 20px;
+    border: 2px solid #555;
+    background-color: #888;
+    color: #FFF;
+    border-radius: 3px;
+    list-style-type: none;
+    padding: 5px;
+    margin: 2px;
+}
+
+#melhores_filmes {
+    border: 2px none;
+    background-color: #DDD;
+}
+
+.ui-menu {
+    width: 180px;
+}

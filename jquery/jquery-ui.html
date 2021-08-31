@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Exemplo de efeitos com jQuery UI</title>
+    <meta charset="utf-8">
+    <script src="static/js/jquery-3.6.0.min.js"></script>
+    <script src="static/js/jquery-ui.min.js"></script>
+    <script src="static/js/jqueryui_efeitos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="static/css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="static/css/jqueryui_efeitos.css">
+</head>
+
+<body class="p-5">
+    <div class="container row m-5">
+
+        <section class="col-6 h-auto my-5">
+            <div class="toggler">
+                <div id="efeito" class="ui-widget-content ui-corner-all h-auto w-auto">
+                    <h3 class="ui-widget-header ui-corner-all">Efeito</h3>
+                    <p>Vários exemplos de efeitos que podem ser feitos com o jQuery UI. Experimente!</p>
+                </div>
+            </div>
+
+            <div class="btn-group flex-direction direction-column" role="group" aria-label="Basic radio toggle button group">
+                <input class="btn-check" type="radio" name="efeito" value="blind" id="blind">
+                <label class="btn btn-outline-primary" for="blind">Blind</label>
+                <input class="btn-check" type="radio" name="efeito" value="bounce" id="bounce">
+                <label class="btn btn-outline-primary" for="bounce">Bounce</label>
+                <input class="btn-check" type="radio" name="efeito" value="clip" id="clip">
+                <label class="btn btn-outline-primary" for="clip">Clip</label>
+                <input class="btn-check" type="radio" name="efeito" value="drop" id="drop">
+                <label class="btn btn-outline-primary" for="drop">Drop</label>
+                <input class="btn-check" type="radio" name="efeito" value="explode" id="explode">
+                <label class="btn btn-outline-primary" for="explode">Explode</label>
+                <input class="btn-check" type="radio" name="efeito" value="fade" id="fade">
+                <label class="btn btn-outline-primary" for="fade">Fade</label>
+                <input class="btn-check" type="radio" name="efeito" value="fold" id="fold">
+                <label class="btn btn-outline-primary" for="fold">Fold</label>
+                <input class="btn-check" type="radio" name="efeito" value="highlight" id="highlight">
+                <label class="btn btn-outline-primary" for="highlight">Highlight</label>
+                <input class="btn-check" type="radio" name="efeito" value="puff" id="puff">
+                <label class="btn btn-outline-primary" for="puff">Puff</label>
+                <input class="btn-check" type="radio" name="efeito" value="pulsate" id="pulsate">
+                <label class="btn btn-outline-primary" for="pulsate">Pulsate</label>
+                <input class="btn-check" type="radio" name="efeito" value="scale" id="scale">
+                <label class="btn btn-outline-primary" for="scale">Scale</label>
+                <input class="btn-check" type="radio" name="efeito" value="shake" id="shake">
+                <label class="btn btn-outline-primary" for="shake">Shake</label>
+                <input class="btn-check" type="radio" name="efeito" value="size" id="size">
+                <label class="btn btn-outline-primary" for="size">Size</label>
+                <input class="btn-check" type="radio" name="efeito" value="slide" id="slide">
+                <label class="btn btn-outline-primary" for="slide">Slide</label>
+                <input class="btn-check" type="radio" name="efeito" value="transfer" id="transfer">
+                <label class="btn btn-outline-primary" for="transfer">Transfer</label>
+            </div>
+        </section>
+
+        <section class="col-6 h-auto my-5">
+            <div id="quadrado"></div>
+        </section>
+
+        <section class="col-6 h-auto my-5">
+            <span>Melhores filmes de todos os tempos (do melhor para os ... "menos melhores")</span>
+            <ul id="melhores_filmes">
+                <li class="btn btn-primary h-auto w-100 rounded-0">Menina de Ouro</li>
+                <li class="btn btn-primary h-auto w-100 rounded-0">Poderoso Chefão</li>
+                <li class="btn btn-primary h-auto w-100 rounded-0">A Lista de Schindler</li>
+                <li class="btn btn-primary h-auto w-100 rounded-0">Um sonho de Liberdade</li>
+            </ul>
+        </section>
+
+        <section class="col-6 h-auto my-5">
+            <div id="accordion">
+                <h3>Seção A</h3>
+                <div>Primeira seção</div>
+                <h3>Seção B</h3>
+                <div>Segunda seção</div>
+                <h3>Seção C</h3>
+                <div>Terceira seção</div>
+            </div>
+        </section>
+
+        <section class="col-6 h-auto my-5">
+            <ul id="menu">
+                <li class="btn btn-primary h-auto w-100 rounded-0">ABBA</li>
+                <li class="btn btn-primary h-auto w-100 rounded-0">Alan Parsons</li>
+                <li class="btn btn-primary h-auto w-100 rounded-0">AC/DC</li>
+                <li class="btn btn-primary h-auto w-100 rounded-0">A-ha
+                    <ul>
+                        <li class="btn btn-primary h-auto w-100 rounded-0">Hunting high and low</li>
+                        <li class="btn btn-primary h-auto w-100 rounded-0">Take on me</li>
+                        <li class="btn btn-primary h-auto w-100 rounded-0">Stay on these roads</li>
+                    </ul>
+                </li>
+                <li class="btn btn-primary h-auto w-100 rounded-0">Audioslave</li>
+            </ul>
+        </section>
+
+        <section class="col-6 h-auto my-5">
+            <label for="data">Data: </label>
+            <input type="text" id="data">
+        </section>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
