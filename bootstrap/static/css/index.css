@@ -1,0 +1,85 @@
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 26px;
+}
+
+.faixa {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.cor-especial {
+    color: darkmagenta !important;
+}
+
+.botao-cor-especial {
+    background: darkmagenta;
+    color: white;
+    transition: 400ms;
+}
+
+.botao-cor-especial:hover {
+    opacity: 0.6;
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: darkmagenta;
+}
+
+.heart {
+    font-size: 24px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.3);
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.cor-especial {
+    color: darkmagenta !important;
+}
+
+.botao-cor-especial {
+    background: darkmagenta;
+    color: white;
+    transition: 400ms;
+}
+
+.botao-cor-especial:hover {
+    opacity: 0.6;
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: darkmagenta;
+}
+
+.heart {
+    font-size: 24px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.3);
+}
